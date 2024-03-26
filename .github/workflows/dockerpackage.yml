@@ -37,5 +37,5 @@ jobs:
         run: |
               docker pull ghcr.io/srilekha82/store:latest
 
-      - name: Run image
+      - name: List image
         run: docker image list
